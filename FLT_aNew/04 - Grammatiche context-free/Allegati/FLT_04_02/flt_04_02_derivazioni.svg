@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Stesso albero, due ordini di espansione</title><desc id="desc">Due copie dello stesso albero per aabb. I numeri sui non terminali indicano l ordine delle produzioni. Sinistra: S, A esterno, A interno, B esterno, B interno. Destra: S, B esterno, B interno, A esterno, A interno.</desc>
+<rect x="1" y="1" width="1198" height="718" rx="18" fill="#ffffff" stroke="#dce4ef"/>
+<text x="600" y="46" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="bold" fill="#24344b">Stesso albero, due ordini di espansione</text>
+<text x="600" y="87" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#24344b">Grammatica: S → AB; A → aA | a; B → bB | b</text>
+<rect x="24" y="120" width="560" height="535" rx="12" fill="#fbfcfe" stroke="#dce4ef" stroke-width="1.5"/>
+<rect x="616" y="120" width="560" height="535" rx="12" fill="#fbfcfe" stroke="#dce4ef" stroke-width="1.5"/>
+<text x="304" y="160" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#24344b">Derivazione sinistra</text>
+<text x="896" y="160" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#24344b">Derivazione destra</text>
+<path d="M 300 252 L 150 318" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 300 252 L 450 318" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 150 362 L 90 428" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 150 362 L 225 428" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 450 362 L 380 428" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 450 362 L 515 428" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 225 472 L 225 538" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 515 472 L 515 538" fill="none" stroke="#53657e" stroke-width="2"/>
+<rect x="269" y="208" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="300" y="238" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">S</text>
+<circle cx="331" cy="207" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="331" y="212" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">1</text>
+<rect x="119" y="318" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="150" y="348" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">A</text>
+<circle cx="181" cy="317" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="181" y="322" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">2</text>
+<rect x="419" y="318" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="450" y="348" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">B</text>
+<circle cx="481" cy="317" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="481" y="322" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">4</text>
+<rect x="59" y="428" width="62" height="44" rx="19" fill="#e8f6f1" stroke="#81b9a8" stroke-width="1.5"/>
+<text x="90" y="458" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">a</text>
+<rect x="194" y="428" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="225" y="458" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">A</text>
+<circle cx="256" cy="427" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="256" y="432" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">3</text>
+<rect x="349" y="428" width="62" height="44" rx="19" fill="#e8f6f1" stroke="#81b9a8" stroke-width="1.5"/>
+<text x="380" y="458" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">b</text>
+<rect x="484" y="428" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="515" y="458" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">B</text>
+<circle cx="546" cy="427" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="546" y="432" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">5</text>
+<rect x="194" y="538" width="62" height="44" rx="19" fill="#e8f6f1" stroke="#81b9a8" stroke-width="1.5"/>
+<text x="225" y="568" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">a</text>
+<rect x="484" y="538" width="62" height="44" rx="19" fill="#e8f6f1" stroke="#81b9a8" stroke-width="1.5"/>
+<text x="515" y="568" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">b</text>
+<text x="300" y="626" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="normal" fill="#24344b">Frontiera: a a b b</text>
+<path d="M 900 252 L 750 318" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 900 252 L 1050 318" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 750 362 L 690 428" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 750 362 L 825 428" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 1050 362 L 980 428" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 1050 362 L 1115 428" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 825 472 L 825 538" fill="none" stroke="#53657e" stroke-width="2"/>
+<path d="M 1115 472 L 1115 538" fill="none" stroke="#53657e" stroke-width="2"/>
+<rect x="869" y="208" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="900" y="238" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">S</text>
+<circle cx="931" cy="207" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="931" y="212" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">1</text>
+<rect x="719" y="318" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="750" y="348" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">A</text>
+<circle cx="781" cy="317" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="781" y="322" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">4</text>
+<rect x="1019" y="318" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="1050" y="348" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">B</text>
+<circle cx="1081" cy="317" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="1081" y="322" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">2</text>
+<rect x="659" y="428" width="62" height="44" rx="19" fill="#e8f6f1" stroke="#81b9a8" stroke-width="1.5"/>
+<text x="690" y="458" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">a</text>
+<rect x="794" y="428" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="825" y="458" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">A</text>
+<circle cx="856" cy="427" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="856" y="432" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">5</text>
+<rect x="949" y="428" width="62" height="44" rx="19" fill="#e8f6f1" stroke="#81b9a8" stroke-width="1.5"/>
+<text x="980" y="458" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">b</text>
+<rect x="1084" y="428" width="62" height="44" rx="7" fill="#eaf1fc" stroke="#8ca8d3" stroke-width="1.5"/>
+<text x="1115" y="458" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">B</text>
+<circle cx="1146" cy="427" r="14" fill="#fff0d6" stroke="#b87819" stroke-width="1.2"/>
+<text x="1146" y="432" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#86540b">3</text>
+<rect x="794" y="538" width="62" height="44" rx="19" fill="#e8f6f1" stroke="#81b9a8" stroke-width="1.5"/>
+<text x="825" y="568" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">a</text>
+<rect x="1084" y="538" width="62" height="44" rx="19" fill="#e8f6f1" stroke="#81b9a8" stroke-width="1.5"/>
+<text x="1115" y="568" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal" fill="#24344b">b</text>
+<text x="900" y="626" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="normal" fill="#24344b">Frontiera: a a b b</text>
+<text x="600" y="692" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#24344b">I numeri indicano quando viene applicata la produzione a ciascun non terminale.</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" role="img" aria-labelledby="title desc">
+<title id="title">Un automa finito completo</title><desc id="desc">Linguaggio delle stringhe su a e b con un numero pari di a. q0 iniziale e finale; q1 non finale. a cambia stato, b lascia invariato lo stato.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#53657e"/></marker></defs>
+<rect x="1" y="1" width="998" height="528" rx="18" fill="#ffffff" stroke="#dce4ef"/>
+<text x="500" y="48" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="bold">Automa: numero pari di a</text>
+<text x="500" y="86" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="normal">Alfabeto {a, b} · le frecce rappresentano transizioni</text>
+<path d="M 80 290 L 240 290" fill="none" stroke="#53657e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="142" y="270" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal">inizio</text>
+<path d="M 344 262 Q 500 155 656 262" fill="none" stroke="#53657e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 656 318 Q 500 425 344 318" fill="none" stroke="#53657e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="500" y="204" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal">a</text>
+<text x="500" y="400" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal">a</text>
+<path d="M 272 246 C 190 115 410 115 328 246" fill="none" stroke="#53657e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M 672 246 C 590 115 810 115 728 246" fill="none" stroke="#53657e" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="300" y="137" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal">b</text>
+<text x="700" y="137" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="normal">b</text>
+<circle cx="300" cy="290" r="54" fill="#e8f6f1" stroke="#16795e" stroke-width="2.5"/>
+<circle cx="300" cy="290" r="46" fill="#e8f6f1" stroke="#16795e" stroke-width="2"/>
+<circle cx="700" cy="290" r="54" fill="#eaf1fc" stroke="#24344b" stroke-width="2.5"/>
+<text x="300" y="299" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="normal">q0</text>
+<text x="700" y="299" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="27" font-weight="normal">q1</text>
+<text x="300" y="371" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal">pari</text>
+<text x="700" y="371" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal">dispari</text>
+<rect x="40" y="438" width="920" height="66" rx="8" fill="#f7f9fc" stroke="#dce4ef" stroke-width="1.6"/>
+<text x="500" y="465" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal">q0 è iniziale e finale: anche ε è accettata.</text>
+<text x="500" y="490" text-anchor="middle" fill="#24344b" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal">Una stringa è accettata se il cammino termina in uno stato finale.</text>
+</svg>

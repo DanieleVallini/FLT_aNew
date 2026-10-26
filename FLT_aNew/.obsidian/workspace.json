@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "8a8b802bb3649d31",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bfa8e92091e6032",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5947bd3233ccd2d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 - Grammatiche context-free/04 - Ricavare il linguaggio generato da una grammatica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04 - Ricavare il linguaggio generato da una grammatica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e1e98985198c39a",
+    "type": "split",
+    "children": [
+      {
+        "id": "11e41e83a179f798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07d7efeed5b80aaa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Esplora file"
+            }
+          },
+          {
+            "id": "07eec0b296e32535",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Ricerca"
+            }
+          },
+          {
+            "id": "1987fc3bb002c23e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Segnalibri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e59ed67cd549e165",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5399a1e6688f0fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19ca2aa4b0e53a4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04 - Grammatiche context-free/04 - Ricavare il linguaggio generato da una grammatica.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Riferimenti"
+            }
+          },
+          {
+            "id": "39ffe0d628dcff43",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04 - Grammatiche context-free/04 - Ricavare il linguaggio generato da una grammatica.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Collegamenti in uscita"
+            }
+          },
+          {
+            "id": "ad0094a35f4b88d4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etichette"
+            }
+          },
+          {
+            "id": "a93f17ce2a25defd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Tutte le proprietà"
+            }
+          },
+          {
+            "id": "6c87a90958b59e5b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04 - Grammatiche context-free/04 - Ricavare il linguaggio generato da una grammatica.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Struttura"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selettore rapido": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota giornaliera": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "bases:Crea nuova Base": false
+    }
+  },
+  "active": "5947bd3233ccd2d0",
+  "lastOpenFiles": [
+    "04 - Grammatiche context-free/03 - Ambiguita delle grammatiche.md",
+    "04 - Grammatiche context-free/02 - Derivazioni sinistre, destre e alberi di derivazione.md",
+    "04 - Grammatiche context-free/01 - Grammatiche context-free - Definizione.md",
+    "04 - Grammatiche context-free/04 - Ricavare il linguaggio generato da una grammatica.md",
+    "04 - Grammatiche context-free/05 - Costruire grammatiche per linguaggi con vincoli.md",
+    "04 - Grammatiche context-free/06 - Grammatiche per strutture annidate e record Pascal.md",
+    "04 - Grammatiche context-free/Allegati/FLT_04_02/flt_04_02_epsilon.svg",
+    "04 - Grammatiche context-free/Allegati/FLT_04_02/flt_04_02_derivazioni.svg",
+    "04 - Grammatiche context-free/Allegati/FLT_04_02",
+    "04 - Grammatiche context-free/Allegati",
+    "03 - Automi finiti/09 - Conversione da automa a grammatica lineare destra.md",
+    "03 - Automi finiti/08 - Costruzione dell automa per il complemento.md",
+    "03 - Automi finiti/07 - Equivalenza degli stati e minimizzazione.md",
+    "03 - Automi finiti/06 - Stati raggiungibili, completezza e stato pozzo.md",
+    "03 - Automi finiti/05 - Determinizzazione - Costruzione per sottoinsiemi.md",
+    "03 - Automi finiti/04 - Epsilon-chiusura ed eliminazione delle epsilon-mosse.md",
+    "03 - Automi finiti/03 - Funzione di transizione estesa e riconoscimento.md",
+    "03 - Automi finiti/02 - Automi finiti non deterministici e con epsilon-mosse.md",
+    "03 - Automi finiti/01 - Automi finiti deterministici - Definizione.md",
+    "02 - Espressioni e linguaggi regolari/06 - Regolarita e non regolarita di un linguaggio.md",
+    "02 - Espressioni e linguaggi regolari/05 - Proprieta di chiusura dei linguaggi regolari.md",
+    "02 - Espressioni e linguaggi regolari/04 - Equivalenza tra espressioni regolari, grammatiche e automi.md",
+    "02 - Espressioni e linguaggi regolari/03 - Grammatiche regolari e lineari destre.md",
+    "02 - Espressioni e linguaggi regolari/02 - Linguaggio denotato da una espressione regolare.md",
+    "02 - Espressioni e linguaggi regolari/01 - Espressioni regolari - Definizione formale.md",
+    "01 - Fondamenti dei linguaggi formali/07 - Rappresentazioni grafiche e grammatiche generali - Cenni.md",
+    "01 - Fondamenti dei linguaggi formali/06 - Metodi sintattici e principali strutture sintattiche.md",
+    "01 - Fondamenti dei linguaggi formali/Allegati/FLT_07/flt_07_04_ambiguita.svg",
+    "01 - Fondamenti dei linguaggi formali/Allegati/FLT_07/flt_07_03_albero_derivazione.svg",
+    "01 - Fondamenti dei linguaggi formali/Allegati/FLT_07/flt_07_02_diagrammi_sintattici.svg",
+    "01 - Fondamenti dei linguaggi formali/Allegati/FLT_07/flt_07_01_automa.svg",
+    "01 - Fondamenti dei linguaggi formali/Allegati/FLT_07",
+    "01 - Fondamenti dei linguaggi formali/Allegati",
+    "01 - Fondamenti dei linguaggi formali/05 - Classi di grammatiche e linguaggi.md",
+    "01 - Fondamenti dei linguaggi formali/04 - Derivazioni e linguaggio generato.md",
+    "01 - Fondamenti dei linguaggi formali/03 - Grammatiche generative.md"
+  ]
+}
