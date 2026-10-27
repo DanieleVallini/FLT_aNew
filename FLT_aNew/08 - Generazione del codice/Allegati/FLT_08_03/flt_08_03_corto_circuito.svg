@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1180" viewBox="0 0 1440 1180" role="img" aria-labelledby="title desc">
+<title id="title">Valutazione a corto circuito: OR e AND</title>
+<desc id="desc">Per OR, E1 vero raggiunge E.true senza valutare E2; E1 falso conduce a E2. Per AND, E1 falso raggiunge E.false senza valutare E2; E1 vero conduce a E2. E2 raggiunge sempre la destinazione corrispondente al proprio risultato.</desc>
+<defs>
+<marker id="green" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#18714c"/></marker>
+<marker id="red" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#b63743"/></marker>
+<marker id="blue" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#245ca6"/></marker>
+</defs><rect width="1440" height="1180" fill="#fff"/><g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="62" font-size="36" fill="#16283c" font-weight="bold" text-anchor="start">Corto circuito: OR e AND</text>
+<text x="60" y="103" font-size="23" fill="#4b6077" font-weight="normal" text-anchor="start">Il risultato del primo operando decide se eseguire il secondo.</text>
+<rect x="48" y="150" width="1344" height="460" rx="20" fill="#f6f8fc" stroke="#d7dfeb" stroke-width="2"/>
+<text x="82" y="193" font-size="28" fill="#16283c" font-weight="bold" text-anchor="start">E = E1 or E2</text>
+<path d="M260,275 L410,350 L260,425 L110,350 Z" fill="#fff" stroke="#526981" stroke-width="2.5"/>
+<text x="260" y="359" font-size="28" fill="#16283c" font-weight="bold" text-anchor="middle">E1</text>
+<path d="M690,275 L840,350 L690,425 L540,350 Z" fill="#fff" stroke="#526981" stroke-width="2.5"/>
+<text x="690" y="359" font-size="28" fill="#16283c" font-weight="bold" text-anchor="middle">E2</text>
+<rect x="1080" y="250" width="250" height="72" rx="14" fill="#e8f5ef" stroke="#18714c" stroke-width="2"/>
+<text x="1205" y="280" font-size="25" fill="#18714c" font-weight="bold" text-anchor="middle">E.true</text>
+<text x="1205" y="306" font-size="18" fill="#18714c" font-weight="normal" text-anchor="middle">esito complessivo vero</text>
+<rect x="1080" y="405" width="250" height="72" rx="14" fill="#fcecef" stroke="#b63743" stroke-width="2"/>
+<text x="1205" y="435" font-size="25" fill="#b63743" font-weight="bold" text-anchor="middle">E.false</text>
+<text x="1205" y="461" font-size="18" fill="#b63743" font-weight="normal" text-anchor="middle">esito complessivo falso</text>
+<path d="M840,350 H995 V286 H1080" fill="none" stroke="#18714c" stroke-width="3" stroke-linejoin="round" marker-end="url(#green)"/>
+<text x="1022" y="270" font-size="18" fill="#18714c" font-weight="normal" text-anchor="middle">vero</text>
+<path d="M690,425 V441 H1080" fill="none" stroke="#b63743" stroke-width="3" stroke-linejoin="round" marker-end="url(#red)"/>
+<text x="900" y="428" font-size="18" fill="#b63743" font-weight="normal" text-anchor="middle">falso</text>
+<path d="M410,350 H540" fill="none" stroke="#245ca6" stroke-width="3" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="475" y="334" font-size="19" fill="#245ca6" font-weight="normal" text-anchor="middle">falso</text>
+<path d="M260,275 V225 H1205 V250" fill="none" stroke="#18714c" stroke-width="3" stroke-linejoin="round" marker-end="url(#green)"/>
+<text x="720" y="212" font-size="19" fill="#18714c" font-weight="normal" text-anchor="middle">vero: E2 viene saltato</text>
+<text x="82" y="560" font-size="23" fill="#16283c" font-weight="bold" text-anchor="start">OR: E2 si valuta soltanto quando E1 è falso.</text>
+<rect x="48" y="650" width="1344" height="460" rx="20" fill="#f6f8fc" stroke="#d7dfeb" stroke-width="2"/>
+<text x="82" y="693" font-size="28" fill="#16283c" font-weight="bold" text-anchor="start">E = E1 and E2</text>
+<path d="M260,775 L410,850 L260,925 L110,850 Z" fill="#fff" stroke="#526981" stroke-width="2.5"/>
+<text x="260" y="859" font-size="28" fill="#16283c" font-weight="bold" text-anchor="middle">E1</text>
+<path d="M690,775 L840,850 L690,925 L540,850 Z" fill="#fff" stroke="#526981" stroke-width="2.5"/>
+<text x="690" y="859" font-size="28" fill="#16283c" font-weight="bold" text-anchor="middle">E2</text>
+<rect x="1080" y="750" width="250" height="72" rx="14" fill="#e8f5ef" stroke="#18714c" stroke-width="2"/>
+<text x="1205" y="780" font-size="25" fill="#18714c" font-weight="bold" text-anchor="middle">E.true</text>
+<text x="1205" y="806" font-size="18" fill="#18714c" font-weight="normal" text-anchor="middle">esito complessivo vero</text>
+<rect x="1080" y="905" width="250" height="72" rx="14" fill="#fcecef" stroke="#b63743" stroke-width="2"/>
+<text x="1205" y="935" font-size="25" fill="#b63743" font-weight="bold" text-anchor="middle">E.false</text>
+<text x="1205" y="961" font-size="18" fill="#b63743" font-weight="normal" text-anchor="middle">esito complessivo falso</text>
+<path d="M840,850 H995 V786 H1080" fill="none" stroke="#18714c" stroke-width="3" stroke-linejoin="round" marker-end="url(#green)"/>
+<text x="1022" y="770" font-size="18" fill="#18714c" font-weight="normal" text-anchor="middle">vero</text>
+<path d="M690,925 V941 H1080" fill="none" stroke="#b63743" stroke-width="3" stroke-linejoin="round" marker-end="url(#red)"/>
+<text x="900" y="928" font-size="18" fill="#b63743" font-weight="normal" text-anchor="middle">falso</text>
+<path d="M410,850 H540" fill="none" stroke="#245ca6" stroke-width="3" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="475" y="834" font-size="19" fill="#245ca6" font-weight="normal" text-anchor="middle">vero</text>
+<path d="M260,925 V1040 H1205 V977" fill="none" stroke="#b63743" stroke-width="3" stroke-linejoin="round" marker-end="url(#red)"/>
+<text x="720" y="1064" font-size="19" fill="#b63743" font-weight="normal" text-anchor="middle">falso: E2 viene saltato</text>
+<text x="82" y="1093" font-size="23" fill="#16283c" font-weight="bold" text-anchor="start">AND: E2 si valuta soltanto quando E1 è vero.</text>
+<text x="60" y="1154" font-size="20" fill="#4b6077" font-weight="normal" text-anchor="start">Le scritte sugli archi indicano il risultato dell’operando appena valutato.</text>
+</g></svg>

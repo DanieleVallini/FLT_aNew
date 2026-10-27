@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1180" viewBox="0 0 1440 1180" role="img" aria-labelledby="title desc">
+<title id="title">If-then-else con OR a corto circuito</title>
+<desc id="desc">Traduzione della condizione x maggiore di y oppure x maggiore di z. Il primo confronto vero raggiunge direttamente L1, altrimenti si valuta il secondo in L3. Il secondo confronto vero raggiunge L1, falso raggiunge L2. Il ramo then sottrae w a x e salta a L4, evitando il ramo else. Il ramo else somma w a x e prosegue verso L4.</desc>
+<defs>
+<marker id="green" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,5.5 L0,11 Z" fill="#17734d"/></marker>
+<marker id="red" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,5.5 L0,11 Z" fill="#b63743"/></marker>
+<marker id="blue" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,5.5 L0,11 Z" fill="#245ca6"/></marker>
+<marker id="purple" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,5.5 L0,11 Z" fill="#74409b"/></marker>
+</defs><rect width="1440" height="1180" fill="#fff"/><g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="60" font-size="35" fill="#16283c" font-weight="bold" text-anchor="start">if-then-else con OR a corto circuito</text>
+<text x="60" y="104" font-size="24" fill="#4b6077" font-weight="normal" text-anchor="start">Esame del 26 gennaio 2026: x&gt;y or x&gt;z</text>
+<path d="M400,180 L560,260 L400,340 L240,260 Z" fill="#f3f6fc" stroke="#526981" stroke-width="2.5"/>
+<text x="400" y="270" font-size="28" fill="#16283c" font-weight="bold" text-anchor="middle">x &gt; y ?</text>
+<path d="M1030,360 L1190,440 L1030,520 L870,440 Z" fill="#f3f6fc" stroke="#526981" stroke-width="2.5"/>
+<text x="1030" y="425" font-size="22" fill="#245ca6" font-weight="bold" text-anchor="middle">L3</text>
+<text x="1030" y="462" font-size="28" fill="#16283c" font-weight="bold" text-anchor="middle">x &gt; z ?</text>
+<path d="M560,260 H1030 V360" fill="none" stroke="#245ca6" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="800" y="241" font-size="21" fill="#245ca6" font-weight="normal" text-anchor="middle">falso: valuta il secondo confronto</text>
+<path d="M400,340 V660" fill="none" stroke="#17734d" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#green)"/>
+<text x="376" y="500" font-size="22" fill="#17734d" font-weight="normal" text-anchor="end">vero</text>
+<path d="M870,440 H715 V740 H640" fill="none" stroke="#17734d" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#green)"/>
+<text x="792" y="421" font-size="22" fill="#17734d" font-weight="normal" text-anchor="middle">vero</text>
+<path d="M1030,520 V660" fill="none" stroke="#b63743" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#red)"/>
+<text x="1055" y="584" font-size="22" fill="#b63743" font-weight="normal" text-anchor="start">falso</text>
+<rect x="160" y="660" width="480" height="180" rx="16" fill="#edf8f1" stroke="#17734d" stroke-width="2.5"/>
+<text x="188" y="698" font-size="26" fill="#17734d" font-weight="bold" text-anchor="start">L1: ramo then</text>
+<text x="188" y="741" font-size="26" fill="#16283c" font-weight="normal" text-anchor="start" font-family="DejaVu Sans Mono, monospace">t1 := x - w</text>
+<text x="188" y="778" font-size="26" fill="#16283c" font-weight="normal" text-anchor="start" font-family="DejaVu Sans Mono, monospace">x := t1</text>
+<rect x="180" y="790" width="440" height="37" rx="6" fill="#f2e9fa"/>
+<text x="188" y="817" font-size="26" fill="#74409b" font-weight="bold" text-anchor="start" font-family="DejaVu Sans Mono, monospace">goto L4</text>
+<rect x="790" y="660" width="480" height="180" rx="16" fill="#fdf0f1" stroke="#b63743" stroke-width="2.5"/>
+<text x="818" y="698" font-size="26" fill="#b63743" font-weight="bold" text-anchor="start">L2: ramo else</text>
+<text x="818" y="751" font-size="26" fill="#16283c" font-weight="normal" text-anchor="start" font-family="DejaVu Sans Mono, monospace">t2 := x + w</text>
+<text x="818" y="795" font-size="26" fill="#16283c" font-weight="normal" text-anchor="start" font-family="DejaVu Sans Mono, monospace">x := t2</text>
+<path d="M400,840 V1035 H525" fill="none" stroke="#74409b" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#purple)"/>
+<text x="420" y="925" font-size="22" fill="#74409b" font-weight="bold" text-anchor="start">salto a L4</text>
+<path d="M1030,840 V1035 H905" fill="none" stroke="#245ca6" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="1007" y="910" font-size="22" fill="#245ca6" font-weight="normal" text-anchor="end">prosecuzione</text>
+<text x="1007" y="941" font-size="22" fill="#245ca6" font-weight="normal" text-anchor="end">sequenziale</text>
+<rect x="525" y="995" width="380" height="80" rx="16" fill="#f3f6fc" stroke="#526981" stroke-width="2.5"/>
+<text x="715" y="1029" font-size="26" fill="#16283c" font-weight="bold" text-anchor="middle">L4</text>
+<text x="715" y="1058" font-size="21" fill="#16283c" font-weight="normal" text-anchor="middle">continuazione dell’if</text>
+<text x="60" y="1123" font-size="23" fill="#74409b" font-weight="bold" text-anchor="start">Il salto dopo then evita l’esecuzione del ramo else.</text>
+<text x="60" y="1160" font-size="21" fill="#4b6077" font-weight="normal" text-anchor="start">L4 corrisponde all’attributo ereditato S.next.</text>
+</g></svg>

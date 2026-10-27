@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+<title id="title">Inclusioni strette tra linguaggi regolari, deterministici e context-free</title>
+<desc id="desc">Classi di linguaggi sull'alfabeto a,b,c. REG è contenuta strettamente in DCFL, contenuta strettamente in CFL. E uguale a tutti i vocaboli su a,b è regolare. H uguale a a alla n b alla n, con n non negativo, è deterministico ma non regolare. T uguale a a alla n b alla n c alla n, con n positivo, è fuori da CFL. K, complemento di T rispetto a tutti i vocaboli su a,b,c, è context-free ma non deterministico.</desc>
+<rect width="1440" height="1080" fill="#f8fafc"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#172438">
+<text x="56" y="62" font-size="32" font-weight="700">REG ⊊ DCFL ⊊ CFL</text>
+<text x="56" y="103" font-size="22" fill="#475569">Classi di linguaggi su Σ = {a, b, c} · ogni inclusione è stretta</text>
+
+<rect x="50" y="144" width="1340" height="660" rx="24" fill="#eef2ff" stroke="#6574c4" stroke-width="3"/>
+<text x="80" y="193" font-size="28" font-weight="700" fill="#394996">CFL</text>
+<text x="166" y="193" font-size="23" fill="#475569">Grammatiche context-free / NPDA</text>
+
+<rect x="80" y="218" width="1280" height="112" rx="14" fill="white" stroke="#b6bfec" stroke-width="1.5"/>
+<text x="104" y="261" font-size="27" font-weight="700">K = Σ* ∖ T</text>
+<text x="104" y="301" font-size="22" fill="#475569">K ∈ CFL ∖ DCFL · context-free, ma non deterministico</text>
+
+<rect x="80" y="350" width="1280" height="424" rx="20" fill="#e7f5f3" stroke="#28857a" stroke-width="3"/>
+<text x="110" y="398" font-size="28" font-weight="700" fill="#146a62">DCFL</text>
+<text x="216" y="398" font-size="23" fill="#475569">Automi a pila deterministici / DPDA</text>
+
+<rect x="110" y="420" width="1220" height="112" rx="14" fill="white" stroke="#a1d3cc" stroke-width="1.5"/>
+<text x="134" y="463" font-size="27" font-weight="700">H = {aⁿbⁿ | n ≥ 0}</text>
+<text x="134" y="503" font-size="22" fill="#475569">H ∈ DCFL ∖ REG · deterministico, ma non regolare</text>
+
+<rect x="110" y="552" width="1220" height="192" rx="18" fill="#e1effb" stroke="#3f7eaf" stroke-width="3"/>
+<text x="140" y="600" font-size="28" font-weight="700" fill="#245a88">REG</text>
+<text x="225" y="600" font-size="23" fill="#475569">DFA / NFA / espressioni regolari</text>
+<text x="140" y="655" font-size="27" font-weight="700">E = {a, b}*</text>
+<text x="140" y="700" font-size="22" fill="#475569">E ∈ REG · quindi appartiene anche a DCFL e CFL</text>
+
+<rect x="50" y="838" width="1340" height="138" rx="20" fill="#fff4ec" stroke="#be7949" stroke-width="2"/>
+<text x="80" y="883" font-size="27" font-weight="700" fill="#8e4c22">T = {aⁿbⁿcⁿ | n ≥ 1}</text>
+<text x="80" y="925" font-size="22" fill="#6b4e3d">T ∉ CFL · quindi è fuori anche da DCFL e REG</text>
+<text x="80" y="955" font-size="19" fill="#6b4e3d">Il complemento K è calcolato rispetto a Σ*, con Σ = {a, b, c}.</text>
+
+<text x="56" y="1020" font-size="20" fill="#475569">Ogni elemento rappresentato è un linguaggio, non una singola parola.</text>
+<text x="56" y="1051" font-size="18" fill="#64748b">Le posizioni dei testimoni H e K dimostrano che le due inclusioni sono strette.</text>
+</g>
+</svg>

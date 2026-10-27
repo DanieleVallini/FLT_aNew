@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1250" viewBox="0 0 1440 1250" role="img" aria-labelledby="title desc">
+<title id="title">While con OR a corto circuito</title>
+<desc id="desc">Il ciclo inizia in L1 con il confronto a minore di b. Se vero entra nel corpo L2; se falso passa a L3 e confronta a con c. Il secondo confronto vero porta al corpo, falso all’uscita L4. Il corpo calcola t1 uguale b per c, t2 uguale a più t1, assegna t2 ad a e torna a L1 per controllare nuovamente l’intera condizione.</desc>
+<defs>
+<marker id="green" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,5.5 L0,11 Z" fill="#17734d"/></marker>
+<marker id="red" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,5.5 L0,11 Z" fill="#b63743"/></marker>
+<marker id="blue" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,5.5 L0,11 Z" fill="#245ca6"/></marker>
+<marker id="purple" markerWidth="11" markerHeight="11" refX="10" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L11,5.5 L0,11 Z" fill="#74409b"/></marker>
+</defs><rect width="1440" height="1250" fill="#fff"/><g font-family="DejaVu Sans, sans-serif">
+<text x="60" y="60" font-size="35" fill="#16283c" font-weight="bold" text-anchor="start">Traduzione del while con OR</text>
+<text x="60" y="104" font-size="23" fill="#4b6077" font-weight="normal" text-anchor="start">Esame del 24 giugno 2025: while a&lt;b or a&lt;c do a:=a+b*c</text>
+<text x="550" y="185" font-size="21" fill="#4b6077" font-weight="normal" text-anchor="middle">ingresso e ripetizione del test</text>
+<path d="M550,220 L710,300 L550,380 L390,300 Z" fill="#f3f6fc" stroke="#526981" stroke-width="2.5"/>
+<text x="550" y="285" font-size="22" fill="#245ca6" font-weight="bold" text-anchor="middle">L1 = S.begin</text>
+<text x="550" y="323" font-size="28" fill="#16283c" font-weight="bold" text-anchor="middle">a &lt; b ?</text>
+<path d="M1040,440 L1200,520 L1040,600 L880,520 Z" fill="#f3f6fc" stroke="#526981" stroke-width="2.5"/>
+<text x="1040" y="505" font-size="22" fill="#245ca6" font-weight="bold" text-anchor="middle">L3</text>
+<text x="1040" y="543" font-size="28" fill="#16283c" font-weight="bold" text-anchor="middle">a &lt; c ?</text>
+<path d="M710,300 H1040 V440" fill="none" stroke="#245ca6" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#blue)"/>
+<text x="875" y="279" font-size="22" fill="#245ca6" font-weight="normal" text-anchor="middle">falso</text>
+<path d="M550,380 V740" fill="none" stroke="#17734d" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#green)"/>
+<text x="526" y="555" font-size="22" fill="#17734d" font-weight="normal" text-anchor="end">vero</text>
+<path d="M880,520 H820 V835 H790" fill="none" stroke="#17734d" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#green)"/>
+<text x="858" y="500" font-size="21" fill="#17734d" font-weight="normal" text-anchor="middle">vero</text>
+<path d="M1040,600 V1020" fill="none" stroke="#b63743" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#red)"/>
+<text x="1065" y="790" font-size="22" fill="#b63743" font-weight="normal" text-anchor="start">falso: esci</text>
+<rect x="310" y="740" width="480" height="230" rx="16" fill="#edf8f1" stroke="#17734d" stroke-width="2.5"/>
+<text x="338" y="781" font-size="26" fill="#17734d" font-weight="bold" text-anchor="start">L2: corpo del ciclo</text>
+<text x="338" y="826" font-size="26" fill="#16283c" font-weight="normal" text-anchor="start" font-family="DejaVu Sans Mono, monospace">t1 := b * c</text>
+<text x="338" y="864" font-size="26" fill="#16283c" font-weight="normal" text-anchor="start" font-family="DejaVu Sans Mono, monospace">t2 := a + t1</text>
+<text x="338" y="902" font-size="26" fill="#16283c" font-weight="normal" text-anchor="start" font-family="DejaVu Sans Mono, monospace">a := t2</text>
+<rect x="330" y="919" width="440" height="37" rx="6" fill="#f2e9fa"/>
+<text x="338" y="947" font-size="26" fill="#74409b" font-weight="bold" text-anchor="start" font-family="DejaVu Sans Mono, monospace">goto L1</text>
+<path d="M550,970 V1060 H150 V300 H390" fill="none" stroke="#74409b" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#purple)"/>
+<text x="350" y="1095" font-size="22" fill="#74409b" font-weight="bold" text-anchor="middle">ritorno al primo confronto</text>
+<rect x="870" y="1020" width="340" height="80" rx="16" fill="#f3f6fc" stroke="#526981" stroke-width="2.5"/>
+<text x="1040" y="1055" font-size="25" fill="#16283c" font-weight="bold" text-anchor="middle">L4 = S.next</text>
+<text x="1040" y="1084" font-size="21" fill="#16283c" font-weight="normal" text-anchor="middle">continuazione</text>
+<text x="60" y="1185" font-size="22" fill="#74409b" font-weight="bold" text-anchor="start">Il corpo modifica a; il salto a L1 fa rivalutare la condizione con il nuovo valore.</text>
+<text x="60" y="1223" font-size="21" fill="#4b6077" font-weight="normal" text-anchor="start">L4 è fornita dal contesto. La condizione inizialmente falsa evita il corpo.</text>
+</g></svg>

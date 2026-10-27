@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title desc">
+<title id="title">Albero di derivazione annotato di 3 + 4 * 5</title>
+<desc id="desc">La radice E ha val 23. Il figlio E ha val 3, il figlio T ha val 20. Il prodotto 4 * 5 viene calcolato prima della somma. Ogni occorrenza possiede il proprio attributo val; i token numerici possiedono lexval.</desc>
+<rect width="1440" height="1040" fill="#ffffff"/>
+<text x="48" y="52" font-family="DejaVu Sans, sans-serif" font-size="32" font-weight="700" fill="#10243a">Un albero di derivazione annotato</text>
+<text x="48" y="94" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#526276">Espressione: 3 + 4 * 5    ·    Risultato: 23</text>
+<g stroke="#9aaabd" stroke-width="2.5" stroke-linecap="round" fill="none">
+<path d="M 720 232 L 300 304"/>
+<path d="M 720 232 L 720 320"/>
+<path d="M 720 232 L 1080 304"/>
+<path d="M 300 392 L 300 464"/>
+<path d="M 300 552 L 300 624"/>
+<path d="M 300 712 L 300 784"/>
+<path d="M 1080 392 L 900 464"/>
+<path d="M 1080 392 L 1080 480"/>
+<path d="M 1080 392 L 1260 464"/>
+<path d="M 900 552 L 900 624"/>
+<path d="M 900 712 L 900 784"/>
+<path d="M 1260 552 L 1260 624"/>
+</g>
+<rect x="640" y="144" width="160" height="88" rx="15" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="720" y="180" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#164f85">E</text>
+<text x="720" y="213" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#164f85">val = 23</text>
+<rect x="220" y="304" width="160" height="88" rx="15" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="300" y="340" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#164f85">E</text>
+<text x="300" y="373" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#164f85">val = 3</text>
+<circle cx="720" cy="348" r="28" fill="#f3f5f8" stroke="#9aaabd" stroke-width="2"/>
+<text x="720" y="358" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#34465b">+</text>
+<rect x="1000" y="304" width="160" height="88" rx="15" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="1080" y="340" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#164f85">T</text>
+<text x="1080" y="373" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#164f85">val = 20</text>
+<rect x="220" y="464" width="160" height="88" rx="15" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="300" y="500" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#164f85">T</text>
+<text x="300" y="533" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#164f85">val = 3</text>
+<rect x="820" y="464" width="160" height="88" rx="15" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="900" y="500" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#164f85">T</text>
+<text x="900" y="533" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#164f85">val = 4</text>
+<circle cx="1080" cy="508" r="28" fill="#f3f5f8" stroke="#9aaabd" stroke-width="2"/>
+<text x="1080" y="518" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="30" fill="#34465b">*</text>
+<rect x="1180" y="464" width="160" height="88" rx="15" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="1260" y="500" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#164f85">F</text>
+<text x="1260" y="533" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#164f85">val = 5</text>
+<rect x="220" y="624" width="160" height="88" rx="15" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="300" y="660" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#164f85">F</text>
+<text x="300" y="693" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#164f85">val = 3</text>
+<rect x="820" y="624" width="160" height="88" rx="15" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="900" y="660" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#164f85">F</text>
+<text x="900" y="693" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#164f85">val = 4</text>
+<rect x="1172" y="624" width="176" height="88" rx="15" fill="#f5efff" stroke="#9873ba" stroke-width="2"/>
+<text x="1260" y="660" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#68418c">num</text>
+<text x="1260" y="693" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#68418c">lexval = 5</text>
+<rect x="212" y="784" width="176" height="88" rx="15" fill="#f5efff" stroke="#9873ba" stroke-width="2"/>
+<text x="300" y="820" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#68418c">num</text>
+<text x="300" y="853" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#68418c">lexval = 3</text>
+<rect x="812" y="784" width="176" height="88" rx="15" fill="#f5efff" stroke="#9873ba" stroke-width="2"/>
+<text x="900" y="820" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="700" fill="#68418c">num</text>
+<text x="900" y="853" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#68418c">lexval = 4</text>
+<rect x="48" y="930" width="1344" height="78" rx="12" fill="#f4f7fa"/>
+<text x="72" y="960" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#34465b">val: attributo sintetizzato    ·    lexval: valore fornito dall’analizzatore lessicale</text>
+<text x="72" y="990" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#526276">Le linee descrivono la struttura dell’albero. Ogni nodo ha le proprie istanze di attributo.</text>
+</svg>

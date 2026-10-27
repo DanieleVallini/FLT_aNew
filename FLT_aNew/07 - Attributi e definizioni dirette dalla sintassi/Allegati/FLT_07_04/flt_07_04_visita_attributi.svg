@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title desc">
+<title id="title">Visita dell’albero e valutazione degli attributi per A → B C A1</title>
+<desc id="desc">A.b è disponibile all’ingresso. Prima si visita B ottenendo B.s. Si calcola C.c e si visita C ottenendo C.s. Si calcola A1.b e si visita A1 ottenendo A1.a. Infine si calcola A.a. Le frecce arancioni passano gli ereditati in discesa, quelle blu restituiscono i sintetizzati.</desc>
+<rect width="1440" height="1040" fill="#ffffff"/>
+<defs>
+<marker id="up" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 12 6 L 0 12 Z" fill="#2c659e"/></marker>
+<marker id="down" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 12 6 L 0 12 Z" fill="#b36a20"/></marker>
+<marker id="visit" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 12 6 L 0 12 Z" fill="#9aaabd"/></marker>
+</defs>
+<text x="48" y="54" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#10243a" font-weight="700" text-anchor="start">Una visita in profondità, da sinistra verso destra</text>
+<text x="48" y="99" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#526276" font-weight="400" text-anchor="start">Ordine dei sottoalberi: B, poi C, poi A₁. A.b è disponibile all’ingresso.</text>
+<path d="M 565 280 L 200 520" fill="none" stroke="#9aaabd" stroke-width="3" marker-end="url(#visit)"/>
+<path d="M 260 520 L 615 280" fill="none" stroke="#2c659e" stroke-width="3" marker-end="url(#up)"/>
+<path d="M 690 280 L 690 520" fill="none" stroke="#b36a20" stroke-width="3" marker-end="url(#down)"/>
+<path d="M 750 520 L 750 280" fill="none" stroke="#2c659e" stroke-width="3" marker-end="url(#up)"/>
+<path d="M 825 280 L 1180 520" fill="none" stroke="#b36a20" stroke-width="3" marker-end="url(#down)"/>
+<path d="M 1240 520 L 875 280" fill="none" stroke="#2c659e" stroke-width="3" marker-end="url(#up)"/>
+<text x="350" y="389" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#708198" font-weight="400" text-anchor="end">visita</text>
+<text x="450" y="438" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#2c659e" font-weight="400" text-anchor="start">B.s</text>
+<text x="675" y="404" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#b36a20" font-weight="400" text-anchor="end">C.c</text>
+<text x="766" y="404" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#2c659e" font-weight="400" text-anchor="start">C.s</text>
+<text x="930" y="389" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#b36a20" font-weight="400" text-anchor="end">A₁.b</text>
+<text x="1140" y="438" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#2c659e" font-weight="400" text-anchor="start">A₁.a</text>
+<rect x="540" y="150" width="360" height="130" rx="16" fill="#f4f7fb" stroke="#7d98b5" stroke-width="2"/>
+<text x="720" y="185" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#10243a" font-weight="700" text-anchor="middle">A</text>
+<text x="720" y="222" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#b36a20" font-weight="400" text-anchor="middle">A.b: ingresso dal contesto</text>
+<text x="720" y="259" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#2c659e" font-weight="400" text-anchor="middle">6. A.a := f(C.s, A₁.a)</text>
+<rect x="80" y="520" width="300" height="180" rx="16" fill="#ffffff" stroke="#7d98b5" stroke-width="2"/>
+<text x="230" y="559" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#10243a" font-weight="700" text-anchor="middle">B</text>
+<text x="230" y="600" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#2c659e" font-weight="400" text-anchor="middle">1. restituisce B.s</text>
+<text x="230" y="635" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#708198" font-weight="400" text-anchor="middle">ereditati non mostrati</text>
+<text x="230" y="674" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#708198" font-weight="400" text-anchor="middle">visita del sottoalbero</text>
+<rect x="570" y="520" width="300" height="180" rx="16" fill="#ffffff" stroke="#7d98b5" stroke-width="2"/>
+<text x="720" y="559" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#10243a" font-weight="700" text-anchor="middle">C</text>
+<text x="720" y="600" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#b36a20" font-weight="400" text-anchor="middle">2. riceve C.c</text>
+<text x="720" y="635" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#2c659e" font-weight="400" text-anchor="middle">3. restituisce C.s</text>
+<text x="720" y="674" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#708198" font-weight="400" text-anchor="middle">visita del sottoalbero</text>
+<rect x="1060" y="520" width="300" height="180" rx="16" fill="#ffffff" stroke="#7d98b5" stroke-width="2"/>
+<text x="1210" y="559" font-family="DejaVu Sans, sans-serif" font-size="30" fill="#10243a" font-weight="700" text-anchor="middle">A₁</text>
+<text x="1210" y="600" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#b36a20" font-weight="400" text-anchor="middle">4. riceve A₁.b</text>
+<text x="1210" y="635" font-family="DejaVu Sans, sans-serif" font-size="21" fill="#2c659e" font-weight="400" text-anchor="middle">5. restituisce A₁.a</text>
+<text x="1210" y="674" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#708198" font-weight="400" text-anchor="middle">visita del sottoalbero</text>
+<text x="48" y="754" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#526276" font-weight="400" text-anchor="start">Ogni sottoalbero viene completato prima di passare al successivo.</text>
+<rect x="48" y="800" width="1344" height="208" rx="12" fill="#f4f7fa"/>
+<text x="72" y="839" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#b36a20" font-weight="400" text-anchor="start">2. Prima di C:   C.c := h(B.s, A.b)</text>
+<text x="72" y="883" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#b36a20" font-weight="400" text-anchor="start">4. Prima di A₁:  A₁.b := g(B.s)</text>
+<text x="72" y="927" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#2c659e" font-weight="400" text-anchor="start">6. Dopo A₁:      A.a := f(C.s, A₁.a)</text>
+<text x="72" y="977" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#526276" font-weight="400" text-anchor="start">Arancione: ereditati in discesa · Blu: sintetizzati al ritorno · Grigio: discesa senza ereditati mostrati</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+<title id="title">Grafo delle dipendenze del frammento d’esame</title>
+<desc id="desc">Sette istanze di attributo e sette dipendenze. A.b e B.s alimentano i rami di C e A1, i cui risultati C.s e A1.a consentono di calcolare A.a. Due archi tratteggiati riassumono le dipendenze interne ai sottoalberi richieste dall’esame.</desc>
+<rect width="1440" height="1080" fill="#ffffff"/>
+<defs>
+<marker id="arrowDirect" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 12 6 L 0 12 Z" fill="#36587d"/></marker>
+<marker id="arrowAssumed" markerWidth="12" markerHeight="12" refX="12" refY="6" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 12 6 L 0 12 Z" fill="#b4691b"/></marker>
+</defs>
+<text x="48" y="55" font-family="DejaVu Sans, sans-serif" font-size="32" fill="#10243a" font-weight="700" text-anchor="start">Grafo delle dipendenze · frammento d’esame</text>
+<text x="48" y="101" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#526276" font-weight="400" text-anchor="start">A → B C A₁ · gli archi tratteggiati riassumono l’ipotesi sui sottoalberi</text>
+<path d="M 350 268 L 460 372" fill="none" stroke="#36587d" stroke-width="3" marker-end="url(#arrowDirect)"/>
+<path d="M 1020 268 L 540 372" fill="none" stroke="#36587d" stroke-width="3" marker-end="url(#arrowDirect)"/>
+<path d="M 1080 268 L 1080 372" fill="none" stroke="#36587d" stroke-width="3" marker-end="url(#arrowDirect)"/>
+<path d="M 500 468 L 500 572" fill="none" stroke="#b4691b" stroke-width="3" marker-end="url(#arrowAssumed)" stroke-dasharray="9 7"/>
+<path d="M 1050 468 L 1050 572" fill="none" stroke="#b4691b" stroke-width="3" marker-end="url(#arrowAssumed)" stroke-dasharray="9 7"/>
+<path d="M 500 668 L 735 772" fill="none" stroke="#36587d" stroke-width="3" marker-end="url(#arrowDirect)"/>
+<path d="M 1050 668 L 815 772" fill="none" stroke="#36587d" stroke-width="3" marker-end="url(#arrowDirect)"/>
+<rect x="230" y="172" width="240" height="96" rx="16" fill="#fff5e9" stroke="#c58b45" stroke-width="2"/>
+<text x="350" y="215" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#925611" font-weight="700" text-anchor="middle">A.b</text>
+<text x="350" y="247" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#925611" font-weight="400" text-anchor="middle">ingresso dal contesto</text>
+<rect x="930" y="172" width="240" height="96" rx="16" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="1050" y="215" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#164f85" font-weight="700" text-anchor="middle">B.s</text>
+<text x="1050" y="247" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#164f85" font-weight="400" text-anchor="middle">risultato di B</text>
+<rect x="380" y="372" width="240" height="96" rx="16" fill="#fff5e9" stroke="#c58b45" stroke-width="2"/>
+<text x="500" y="415" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#925611" font-weight="700" text-anchor="middle">C.c</text>
+<text x="500" y="447" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#925611" font-weight="400" text-anchor="middle">ereditato · h</text>
+<rect x="930" y="372" width="240" height="96" rx="16" fill="#fff5e9" stroke="#c58b45" stroke-width="2"/>
+<text x="1050" y="415" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#925611" font-weight="700" text-anchor="middle">A₁.b</text>
+<text x="1050" y="447" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#925611" font-weight="400" text-anchor="middle">ereditato · g</text>
+<rect x="380" y="572" width="240" height="96" rx="16" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="500" y="615" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#164f85" font-weight="700" text-anchor="middle">C.s</text>
+<text x="500" y="647" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#164f85" font-weight="400" text-anchor="middle">risultato di C</text>
+<rect x="930" y="572" width="240" height="96" rx="16" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="1050" y="615" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#164f85" font-weight="700" text-anchor="middle">A₁.a</text>
+<text x="1050" y="647" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#164f85" font-weight="400" text-anchor="middle">risultato di A₁</text>
+<rect x="655" y="772" width="240" height="96" rx="16" fill="#edf5ff" stroke="#4b83bc" stroke-width="2"/>
+<text x="775" y="815" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#164f85" font-weight="700" text-anchor="middle">A.a</text>
+<text x="775" y="847" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#164f85" font-weight="400" text-anchor="middle">sintetizzato · f</text>
+<rect x="48" y="950" width="1344" height="96" rx="12" fill="#f4f7fa"/>
+<text x="72" y="985" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#34465b" font-weight="400" text-anchor="start">Continuo: regola esplicita    ·    Tratteggiato: dipendenza riassunta del sottoalbero</text>
+<text x="72" y="1020" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#526276" font-weight="400" text-anchor="start">Arancione: ereditati · Blu: sintetizzati. La freccia va dal dato necessario al risultato.</text>
+</svg>

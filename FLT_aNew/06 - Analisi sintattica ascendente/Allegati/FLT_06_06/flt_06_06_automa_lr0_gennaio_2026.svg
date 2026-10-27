@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1400" viewBox="0 0 1800 1400" role="img" aria-labelledby="title desc">
+<title id="title">Automa canonico LR(0) della grammatica dell’esame del 26 gennaio 2026</title>
+<desc id="desc">Dodici stati e sedici transizioni. Ogni stato riporta tutti i suoi item. Gli archi viola sono sui non terminali S, A, B; quelli blu sui terminali a, b, c, d e sul marcatore di fine input. I5 contiene la produzione aumentata completa. Sono presenti cicli su a in I4 e su b in I7, e ritorni da I9 a I2, I3 e I4.</desc>
+<defs>
+<marker id="terminal" viewBox="0 -5 10 10" refX="10" refY="0" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 -5 L10 0 L0 5 Z" fill="#2563eb"/></marker>
+<marker id="nonterminal" viewBox="0 -5 10 10" refX="10" refY="0" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 -5 L10 0 L0 5 Z" fill="#7c3aed"/></marker>
+<marker id="start" viewBox="0 -5 10 10" refX="10" refY="0" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 -5 L10 0 L0 5 Z" fill="#475569"/></marker>
+</defs>
+<rect width="1800" height="1400" fill="#ffffff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#172438">
+<text x="65" y="54" font-size="32" font-weight="700">Automa LR(0) · Esame 26 gennaio 2026</text>
+<text x="65" y="94" font-size="21" fill="#475569">12 stati · 16 transizioni · In ogni casella è riportato l’insieme completo degli item</text>
+<path d="M30 655 H100" fill="none" stroke="#475569" stroke-width="2.2" marker-end="url(#start)"/>
+<text x="22" y="632" font-size="18" fill="#475569">inizio</text>
+<path data-from="0" data-symbol="S" data-to="1" d="M250 600 V255" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#nonterminal)"/>
+<text x="270" y="425" text-anchor="middle" font-size="24" font-weight="700" fill="#7c3aed" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">S</text>
+<path data-from="0" data-symbol="A" data-to="2" d="M400 685 H570" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#nonterminal)"/>
+<text x="485" y="668" text-anchor="middle" font-size="24" font-weight="700" fill="#7c3aed" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">A</text>
+<path data-from="0" data-symbol="d" data-to="3" d="M400 775 H500 V1020 H1130 V1050" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="805" y="1004" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">d</text>
+<path data-from="0" data-symbol="a" data-to="4" d="M250 810 V1050" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="271" y="936" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">a</text>
+<path data-from="1" data-symbol="↓" data-to="5" d="M400 202 H570" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="485" y="185" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">↓</text>
+<path data-from="2" data-symbol="B" data-to="6" d="M860 685 H1050" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#nonterminal)"/>
+<text x="955" y="668" text-anchor="middle" font-size="24" font-weight="700" fill="#7c3aed" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">B</text>
+<path data-from="2" data-symbol="b" data-to="7" d="M715 600 V365 H1195 V310" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="945" y="348" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">b</text>
+<path data-from="4" data-symbol="A" data-to="8" d="M400 1105 H570" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#nonterminal)"/>
+<text x="485" y="1088" text-anchor="middle" font-size="24" font-weight="700" fill="#7c3aed" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">A</text>
+<path data-from="4" data-symbol="a" data-to="4" d="M220 1210 V1260 H330 V1210" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="275" y="1285" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">a</text>
+<path data-from="6" data-symbol="c" data-to="9" d="M1340 685 H1430" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="1385" y="668" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">c</text>
+<path data-from="7" data-symbol="B" data-to="10" d="M1340 230 H1430" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#nonterminal)"/>
+<text x="1385" y="213" text-anchor="middle" font-size="24" font-weight="700" fill="#7c3aed" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">B</text>
+<path data-from="7" data-symbol="b" data-to="7" d="M1120 150 V105 H1270 V150" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="1195" y="91" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">b</text>
+<path data-from="9" data-symbol="S" data-to="11" d="M1590 600 V455" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#nonterminal)"/>
+<text x="1610" y="535" text-anchor="middle" font-size="24" font-weight="700" fill="#7c3aed" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">S</text>
+<path data-from="9" data-symbol="A" data-to="2" d="M1430 750 H1380 V860 H715 V760" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#nonterminal)"/>
+<text x="1048" y="843" text-anchor="middle" font-size="24" font-weight="700" fill="#7c3aed" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">A</text>
+<path data-from="9" data-symbol="d" data-to="3" d="M1500 810 V950 H1260 V1050" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="1380" y="933" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">d</text>
+<path data-from="9" data-symbol="a" data-to="4" d="M1700 810 V1240 H380 V1210" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#terminal)"/>
+<text x="1080" y="1223" text-anchor="middle" font-size="24" font-weight="700" fill="#2563eb" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke fill">a</text>
+<g data-state="0">
+<rect x="100" y="600" width="300" height="210" rx="14" fill="#f8fafc"/>
+<path d="M114 600 H386 Q400 600 400 614 V642 H100 V614 Q100 600 114 600 Z" fill="#24446b"/>
+<text x="116" y="629" font-size="24" font-weight="700" fill="#ffffff">I0</text>
+<text x="116" y="673" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S' → ·S↓</text>
+<text x="116" y="701" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → ·ABcS</text>
+<text x="116" y="729" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → ·d</text>
+<text x="116" y="757" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">A → ·aA</text>
+<text x="116" y="785" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#a04f0d">A → ·</text>
+<rect x="100" y="600" width="300" height="210" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="1">
+<rect x="100" y="150" width="300" height="105" rx="14" fill="#f8fafc"/>
+<path d="M114 150 H386 Q400 150 400 164 V192 H100 V164 Q100 150 114 150 Z" fill="#24446b"/>
+<text x="116" y="179" font-size="24" font-weight="700" fill="#ffffff">I1</text>
+<text x="116" y="223" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S' → S·↓</text>
+<rect x="100" y="150" width="300" height="105" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="2">
+<rect x="570" y="600" width="290" height="160" rx="14" fill="#f8fafc"/>
+<path d="M584 600 H846 Q860 600 860 614 V642 H570 V614 Q570 600 584 600 Z" fill="#24446b"/>
+<text x="586" y="629" font-size="24" font-weight="700" fill="#ffffff">I2</text>
+<text x="586" y="673" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → A·BcS</text>
+<text x="586" y="701" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">B → ·bB</text>
+<text x="586" y="729" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#a04f0d">B → ·</text>
+<rect x="570" y="600" width="290" height="160" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="3">
+<rect x="1050" y="1050" width="290" height="105" rx="14" fill="#f8fafc"/>
+<path d="M1064 1050 H1326 Q1340 1050 1340 1064 V1092 H1050 V1064 Q1050 1050 1064 1050 Z" fill="#24446b"/>
+<text x="1066" y="1079" font-size="24" font-weight="700" fill="#ffffff">I3</text>
+<text x="1066" y="1123" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → d·</text>
+<rect x="1050" y="1050" width="290" height="105" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="4">
+<rect x="100" y="1050" width="300" height="160" rx="14" fill="#f8fafc"/>
+<path d="M114 1050 H386 Q400 1050 400 1064 V1092 H100 V1064 Q100 1050 114 1050 Z" fill="#24446b"/>
+<text x="116" y="1079" font-size="24" font-weight="700" fill="#ffffff">I4</text>
+<text x="116" y="1123" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">A → ·aA</text>
+<text x="116" y="1151" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">A → a·A</text>
+<text x="116" y="1179" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#a04f0d">A → ·</text>
+<rect x="100" y="1050" width="300" height="160" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="5">
+<rect x="570" y="150" width="290" height="105" rx="14" fill="#f0fdf4"/>
+<path d="M584 150 H846 Q860 150 860 164 V192 H570 V164 Q570 150 584 150 Z" fill="#15803d"/>
+<text x="586" y="179" font-size="24" font-weight="700" fill="#ffffff">I5 · acc</text>
+<text x="586" y="223" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S' → S↓·</text>
+<rect x="570" y="150" width="290" height="105" rx="14" fill="none" stroke="#15803d" stroke-width="1.8"/>
+</g>
+<g data-state="6">
+<rect x="1050" y="625" width="290" height="105" rx="14" fill="#f8fafc"/>
+<path d="M1064 625 H1326 Q1340 625 1340 639 V667 H1050 V639 Q1050 625 1064 625 Z" fill="#24446b"/>
+<text x="1066" y="654" font-size="24" font-weight="700" fill="#ffffff">I6</text>
+<text x="1066" y="698" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → AB·cS</text>
+<rect x="1050" y="625" width="290" height="105" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="7">
+<rect x="1050" y="150" width="290" height="160" rx="14" fill="#f8fafc"/>
+<path d="M1064 150 H1326 Q1340 150 1340 164 V192 H1050 V164 Q1050 150 1064 150 Z" fill="#24446b"/>
+<text x="1066" y="179" font-size="24" font-weight="700" fill="#ffffff">I7</text>
+<text x="1066" y="223" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">B → ·bB</text>
+<text x="1066" y="251" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">B → b·B</text>
+<text x="1066" y="279" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#a04f0d">B → ·</text>
+<rect x="1050" y="150" width="290" height="160" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="8">
+<rect x="570" y="1050" width="290" height="105" rx="14" fill="#f8fafc"/>
+<path d="M584 1050 H846 Q860 1050 860 1064 V1092 H570 V1064 Q570 1050 584 1050 Z" fill="#24446b"/>
+<text x="586" y="1079" font-size="24" font-weight="700" fill="#ffffff">I8</text>
+<text x="586" y="1123" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">A → aA·</text>
+<rect x="570" y="1050" width="290" height="105" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="9">
+<rect x="1430" y="600" width="320" height="210" rx="14" fill="#f8fafc"/>
+<path d="M1444 600 H1736 Q1750 600 1750 614 V642 H1430 V614 Q1430 600 1444 600 Z" fill="#24446b"/>
+<text x="1446" y="629" font-size="24" font-weight="700" fill="#ffffff">I9</text>
+<text x="1446" y="673" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → ·ABcS</text>
+<text x="1446" y="701" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → ABc·S</text>
+<text x="1446" y="729" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → ·d</text>
+<text x="1446" y="757" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">A → ·aA</text>
+<text x="1446" y="785" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#a04f0d">A → ·</text>
+<rect x="1430" y="600" width="320" height="210" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="10">
+<rect x="1430" y="150" width="320" height="105" rx="14" fill="#f8fafc"/>
+<path d="M1444 150 H1736 Q1750 150 1750 164 V192 H1430 V164 Q1430 150 1444 150 Z" fill="#24446b"/>
+<text x="1446" y="179" font-size="24" font-weight="700" fill="#ffffff">I10</text>
+<text x="1446" y="223" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">B → bB·</text>
+<rect x="1430" y="150" width="320" height="105" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<g data-state="11">
+<rect x="1430" y="350" width="320" height="105" rx="14" fill="#f8fafc"/>
+<path d="M1444 350 H1736 Q1750 350 1750 364 V392 H1430 V364 Q1430 350 1444 350 Z" fill="#24446b"/>
+<text x="1446" y="379" font-size="24" font-weight="700" fill="#ffffff">I11</text>
+<text x="1446" y="423" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#172438">S → ABcS·</text>
+<rect x="1430" y="350" width="320" height="105" rx="14" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+</g>
+<text x="65" y="1330" font-size="20" fill="#475569">Viola: non terminali. Blu: terminali, compreso ↓. Verde: produzione aumentata completa in I5.</text>
+<text x="65" y="1366" font-size="20" fill="#475569">Nessun arco ε: le produzioni vuote sono rappresentate dagli item completi A → · e B → ·.</text>
+</g></svg>
